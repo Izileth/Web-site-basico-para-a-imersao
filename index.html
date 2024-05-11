@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <div_a  class="div_a">
+  <img src="https://i.pinimg.com/736x/0c/5e/87/0c5e8759396e775c3180babbe799e1ab.jpg" width="620px" height="40px">
+  </div_a>
+  <title>K.S. Corporation</title>
+   <style>
+    /* Cores */
+    :root {
+      --primary-color: #a02437;
+      --secondary-color: #fb8f55;
+      --text-color: #ffffff;
+      --third-color: #fe8932;
+    }
+
+    /* Tipografia */
+    body {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
+      background-color: #641424;
+    }
+
+    h1, h2, h3 {
+      font-weight: bold;
+      color: var(--primary-color); 
+    }
+     h2,h3 {
+       color: var(--third-color);
+     }
+
+    /* Layout */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 2em;
+    }
+
+    section {
+      padding: 2em;
+      margin-bottom: 2em;
+    }
+
+    /* Imagens */
+    img {
+      max-width: 100%;
+      height: auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 5px;
+    }
+
+    /* Botões e Links */
+    .button {
+      display: inline-block;
+      padding: 1em 2em;
+      background-color: var(--primary-color);
+      color: var(--text-color);
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .button {
+      margin-left: 10px;
+    }
+
+    .button:hover {
+      background-color: darken(var(--primary-color), 10%);
+      text-align: center;
+      position: absolute;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    /* Estilos específicos */
+    header {
+      background-color: var(--primary-color);
+      color: var(--text-color);
+      padding: 1em 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      background-color: var(--secondary-color);
+      text-align: center;
+    }
+
+    nav li {
+      display: inline-block;
+      margin: 0 1em;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--primary-color);
+      padding: 0.5em 1em;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: darken(var(--primary-color), 10%);
+    }
+
+    main {
+      max-width: 960px;
+      margin: 2em auto;
+      padding: 0 1em;
+    }
+
+    .hero-image {
+      background-color: black;
+      background-size: cover;
+      background-position: center;
+      min-height: 300px;
+      position: relative;
+    }
+
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: var(--text-color);
+    }
+
+    footer {
+      background-color: var(--primary-color);
+      color: var(--text-color);
+      padding: 1em 0;
+      text-align: center;
+    }
+    div_a{
+        opacity: 0.6; /* 1.0 = totalmente opaco, 0.0 = totalmente transparente */
+        background-color: transparent; /* Torna o fundo transparente */
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        height: 100vh; /* Define a altura para ocupar toda a tela */
+        margin: 0; /* Remove as margens padrão */ 
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>K.S. Corporation</h1>
+    <p>Construindo um novo futuro, um passo de cada vez</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#services">Serviços</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about" class="hero-image">
+      <div class="hero-text">
+        <h2>𝚆𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝚂.𝙺 𝚂𝚢𝚗𝚎𝚛𝚐𝚢 𝙴𝚗𝚝𝚎𝚛𝚙𝚛𝚒𝚜𝚎𝚜!</h2>
+        <p>Somos uma empresa de tecnologia dedicada a criar  e construir soluções inovadoras para o futuro.</p>
+        <a href="#contact" class="button">Saiba mais</a>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Nossos Serviços</h2>
+      <div class="grid-container">
+        <div>
+          <h3>Software Skills</h3>
+          <p>Desenvolvemos softwares de alta qualidade para atender às necessidades específicas do seu negócio.</p>
+        </div>
+        <div>
+          <h3>Malware Legalized</h3>
+          <p>Oferecemos soluções avançadas de segurança cibernética para proteger seus dados e sistemas contra ameaças.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <h2>Projetos</h2>
+      <div class="grid-container">
+        <div>
+          <img src="https://i.pinimg.com/564x/4c/ff/0a/4cff0a738feaeb5befc2e00f295a0a03.jpg" alt="Projeto 1">
+          <h3>Uma IA gernerativa</h3>
+          <p>Descrição do Projeto 1. Uma plataforma inovadora que oferece aos usuários controle total sobre suas finanças.</p>
+        </div>
+        <div>
+          <img src="https://i.pinimg.com/564x/4c/ff/0a/4cff0a738feaeb5befc2e00f295a0a03.jpg" alt="Projeto 2">
+          <h3>Mini chat de open AI</h3>
+          <p>Descrição do Projeto 2. Uma plataforma de educação online que oferece cursos de alta qualidade sobre as últimas tecnologias.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div style="text-align: center;">
+      <h2>Entre em contato</h2>
+      <p>Email: kawaklebersc@gmail.com</p>
+      <p>Social Media: Instagram, whatsappp, facebook</p>
+      </div>
+      <ul style="display: flex; justify-content: center;">
+        <li><a href="https://www.instagram.com/" target="_blank" class="button">Instagram</a></li>
+        <li><a href="https://www.web.whatsapp.com/" target="_blank" class="button">Whatsapp</a></li>
+        <li><a href="https://www.pt-br.facebook.com/" target="_blank" class="button">Facebook</a></li>
+      </ul>
+    </section>
+   
+<section id="contact">
+  <div style="text-align: center;">
+  <h2>Cadastre-se em nossa plataforma e tenha acesso as noviades do univero da IA</h2>
+  </div>
+  <form id="contact-form">
+    <ul style="display: flex; justify-content: center;">
+    <input type="text" name="name" placeholder="Nome" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="message" placeholder="Mensagem" required></textarea>
+    <button type="submit" class="button">Enviar</button>
+    </ul>
+  </form>
+</section>
+  <h2>Sobre</h2>
+  <p style="text-align: justify;">A S.KSynergy Enterprises é uma empresa de tecnologia líder no mercado, especializada em desenvolver soluções inovadoras para atender às necessidades das empresas modernas. Com uma equipe experiente de engenheiros e desenvolvedores, oferecemos uma ampla gama de serviços, incluindo software sob medida, segurança cibernética e soluções em nuvem.</p>
+  <p style="text-align: justify;">Estamos comprometidos em fornecer aos nossos clientes soluções de alta qualidade que os ajudem a atingir seus objetivos de negócios e manter uma vantagem competitiva. Acreditamos que a tecnologia deve ser usada como uma ferramenta para capacitar empresas e indivíduos a desbloquear seu pleno potencial.</p>
+</section>
+
+<section id="services" class="container">
+  <h2>Serviços</h2>
+  <div class="grid-container">
+    <div>
+      <h3>Software Skills</h3>
+      <p  style="text-align: justify;">Desenvolvemos softwares de alta qualidade para atender às necessidades específicas do seu negócio. Desde sistemas de gerenciamento de dados personalizados até aplicativos móveis de última geração, nossa equipe de desenvolvimento possui a habilidade e a experiência para transformar sua visão em realidade.</p>
+      <ul><li>Análise e Design de Sistemas</li><li>Desenvolvimento Front-End e Back-End</li><li>Integração de Sistemas</li></ul><br>
+      <a href="#" class="button">Saiba mais</a>
+    </div>
+    <div>
+      <h3>Malwere Legalized</h3>
+      <p style="text-align: justify;">Proteja seus dados e sistemas contra ameaças cibernéticas com nossas soluções avançadas de segurança cibernética. Nossa equipe especializada monitora continuamente as ameaças mais recentes e implementa medidas proativas para garantir que seus dados e sistemas estejam sempre seguros.</p>
+      <ul><li>Proteção contra Malware</li><li>Detecção e Resposta a Incidentes</li><li>Gerenciamento de Vulnerabilidades</li></ul><br>
+      <a href="#" class="button">Saiba mais</a>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="container">
+  <h2>Portfólio de analise de sitemas relacionais</h2>
+  <div class="grid-container">
+    <div>
+      <img src="https://i.pinimg.com/564x/4c/ff/0a/4cff0a738feaeb5befc2e00f295a0a03.jpg" alt="Projeto 1">
+      <h3>Dados de vendas da empresa X</h3>
+      <p style="text-align: justify;">Dados de vendas da empresa de varejo X: ao rodar o programa, observamos a variação do montante acumulado ao longo das vendas dos semestres.</p>
+    </div>
+    <div>
+      <img src="https://i.pinimg.com/564x/4c/ff/0a/4cff0a738feaeb5befc2e00f295a0a03.jpg" alt="Projeto 2">
+      <h3>Dados de vedas da emprea Y</h3>
+      <p  style="text-align: justify;">Dados de vendas da concessionária Y: ao rodar o código, observamos a variação da venda de carros e motos ao longo de 12 meses do ano Z. Obtendo informações valiosas para as estratégias de vendas.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="container">
+  <h2>Contato</h2>
+  <p>Estamos sempre disponíveis para discutir suas necessidades de tecnologia. Entre em contato conosco hoje mesmo para agendar uma consulta gratuita.</p>
+  <p>Email: kawaklebersc@gmail.com</p>
+  <p>Social Media: Instagram, Whatsapp, Facebook</p>
+  </main>
+  <footer>
+    <p>© 2024 S.K Synergy Enterprises</p>
+  </footer>
+</body>
+</html>
